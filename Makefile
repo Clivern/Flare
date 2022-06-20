@@ -6,8 +6,8 @@ help: Makefile
 	@echo
 
 
-.PHONY: test
-test:
+.PHONY: ci
+ci:
 	@echo ">> ============= Install required gems ============= <<"
 	./mvnw test
 

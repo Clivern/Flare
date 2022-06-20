@@ -19,4 +19,4 @@ jobs:
         with:
           java-version: ${{ matrix.java }}
           architecture: x64
-      - run: ./mvnw test
+      - run: make ci
