@@ -3,50 +3,22 @@
     <h3 align="center">Flare</h3>
     <p align="center">A Simple Expressive Web Framework for Java.</p>
     <p align="center">
-        <a href="https://github.com/Clivern/flare/actions/workflows/ci.yml">
-            <img src="https://github.com/Clivern/flare/actions/workflows/ci.yml/badge.svg">
-        </a>
-        <a href="http://www.javadoc.io/doc/com.clivern/flare">
-            <img src="http://www.javadoc.io/badge/com.clivern/flare.svg">
-        </a>
-        <a href="https://mvnrepository.com/artifact/com.clivern/flare/3.0.0">
-            <img src="https://img.shields.io/maven-central/v/com.clivern/flare.svg">
-        </a>
-        <a href="https://github.com/Clivern/flare/blob/main/LICENSE">
-            <img src="https://img.shields.io/badge/LICENSE-Apache_2.0-orange.svg">
+        <a href="https://github.com/Clivern/flare/actions/workflows/lgtm.yml">
+            <img src="https://github.com/Clivern/flare/actions/workflows/lgtm.yml/badge.svg">
         </a>
     </p>
 </p>
 
 
+## Roadmap
 
-## Documentation
+Flare `v3` will have some enhancements to Spark `v2`. Here is some notes for the upcoming changes:
 
-### Installation
+- It will have most of the bug fixes, we were waiting for.
+- It will support modern LTS Java versions (Java 8, Java 11, Java 17).
+- Migration from spark into flare will be minimal. Just a matter of changing import paths from `spark` to `flare` and rename classes to have `Flare` rather than `Spark`.
 
-To add a dependency using Maven, use the following:
-
-```xml
-<dependency>
-    <groupId>com.clivern</groupId>
-    <artifactId>flare</artifactId>
-    <version>3.0.0</version>
-</dependency>
-```
-
-To add a dependency using Gradle, use the following:
-
-```java
-dependencies {
-    compile 'com.clivern:flare:3.0.0'
-}
-```
-
-To add a dependency using Scala SBT, use the following:
-
-```java
-libraryDependencies += "com.clivern" % "flare" % "3.0.0"
-```
+Flare `v4` upward will have a breaking changes, new features ... etc.
 
 
 ## Versioning
@@ -58,7 +30,7 @@ See the [Releases section of our GitHub project](https://github.com/clivern/flar
 
 ## Bug tracker
 
-If you have any suggestions, bug reports, or annoyances please report them to our issue tracker at https://github.com/clivern/flare/issues
+If you have any suggestions, bug reports, or annoyances please report them to our [issue tracker](https://github.com/clivern/flare/issues)
 
 
 ## Security Issues

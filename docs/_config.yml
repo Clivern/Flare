@@ -20,7 +20,7 @@
 title: "Flare"
 email: "hello@clivern.com"
 description: "A Simple Expressive Web Framework for Java."
-baseurl: "/flare" # the subpath of your site, e.g. /blog
+baseurl: "/Flare" # the subpath of your site, e.g. /blog
 url: "https://clivern.github.io"
 twitter_username: clivernco
 github_username: clivern

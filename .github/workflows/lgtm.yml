@@ -1,4 +1,4 @@
-name: Flare Framework CI
+name: LGTM
 
 on:
   push:
@@ -10,7 +10,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        java: [ '1.8', '1.9', '1.10', '1.11' ]
+        java: [ '1.8', '1.9', '1.10', '1.11', '1.17', '1.18' ]
     name: Java Version ${{ matrix.java }}
     steps:
       - uses: actions/checkout@master
