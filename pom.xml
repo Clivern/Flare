@@ -30,8 +30,8 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <jetty.version>9.4.46.v20220331</jetty.version>
-        <jetty_websocket.version>9.4.46.v20220331</jetty_websocket.version>
+        <jetty.version>9.4.47.v20220610</jetty.version>
+        <jetty_websocket.version>9.4.47.v20220610</jetty_websocket.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <powermock.version>2.0.9</powermock.version>
         <mockito.version>3.12.2</mockito.version>
@@ -42,13 +42,13 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
-            <version>1.7.25</version>
+            <version>1.7.36</version>
         </dependency>
 
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
-            <version>1.7.25</version>
+            <version>1.7.36</version>
             <scope>test</scope>
         </dependency>
 
