@@ -2,7 +2,7 @@ repo_name: Clivern/Flare
 report_id: befe291c892bedc3c2ba00eb07e153fb
 version: 0.1
 repo_type: Public
-timestamp: '2023-12-21T15:27:45+00:00'
+timestamp: '2024-01-05T08:19:14+00:00'
 requested_by: Clivern
 provider: github
 branch: main
@@ -16,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/Clivern/Flare
   detection_source: Repo Metadata
 - name: Java
   description: A concurrent, class-based, object-oriented, language specifically designed
@@ -40,6 +41,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/Clivern/Flare
   detection_source: Repo Metadata
 - name: Ruby
   description: A dynamic, interpreted, open source programming language with a focus
@@ -50,6 +52,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/Clivern/Flare/blob/main/docs/Gemfile
   detection_source: docs/Gemfile
   last_updated_by: Clivern
   last_updated_on: 2022-06-20 15:29:10.000000000 Z
@@ -62,6 +65,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Java Tools
   image_url: https://img.stackshare.io/service/4456/ymCgaIO0_400x400.jpg
+  detection_source_url: https://github.com/Clivern/Flare
   detection_source: Repo Metadata
 - name: Eclipse
   description: IDE for Java EE Developers
@@ -71,6 +75,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Integrated Development Environment
   image_url: https://img.stackshare.io/service/1446/8cyY6D_m.png
+  detection_source_url: https://github.com/Clivern/Flare/blob/main/pom.xml
   detection_source: pom.xml
   last_updated_by: Ignasi Barrera
   last_updated_on: 2015-07-17 13:54:58.000000000 Z
@@ -82,6 +87,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Clivern/Flare
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -91,6 +97,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/Clivern/Flare/blob/main/.github/workflows/lgtm.yml
   detection_source: ".github/workflows/lgtm.yml"
   last_updated_by: Clivern
   last_updated_on: 2022-06-20 10:25:01.000000000 Z
@@ -130,6 +137,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/Clivern/Flare/blob/main/docs/Gemfile
   detection_source: docs/Gemfile
   last_updated_by: Clivern
   last_updated_on: 2022-06-20 15:29:10.000000000 Z
@@ -141,6 +149,7 @@ tools:
   category: Monitoring
   sub_category: Log Management
   image_url: https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/Clivern/Flare/blob/main/pom.xml
   detection_source: pom.xml
   last_updated_by: Per Wendel
   last_updated_on: 2011-05-05 11:59:08.000000000 Z
@@ -225,6 +234,7 @@ tools:
   category: Libraries
   sub_category: Maven Packages
   image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Clivern/Flare/blob/main/pom.xml
   detection_source: pom.xml
   last_updated_by: Clivern
   last_updated_on: 2022-06-21 21:27:34.000000000 Z
@@ -236,6 +246,7 @@ tools:
   category: Libraries
   sub_category: Maven Packages
   image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Clivern/Flare/blob/main/pom.xml
   detection_source: pom.xml
   last_updated_by: Clivern
   last_updated_on: 2022-06-21 21:27:34.000000000 Z
@@ -247,6 +258,7 @@ tools:
   category: Libraries
   sub_category: Maven Packages
   image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Clivern/Flare/blob/main/pom.xml
   detection_source: pom.xml
   last_updated_by: Clivern
   last_updated_on: 2022-06-21 21:27:34.000000000 Z
@@ -258,6 +270,7 @@ tools:
   category: Libraries
   sub_category: Maven Packages
   image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Clivern/Flare/blob/main/pom.xml
   detection_source: pom.xml
   last_updated_by: Clivern
   last_updated_on: 2022-06-21 21:27:34.000000000 Z
@@ -269,6 +282,7 @@ tools:
   category: Libraries
   sub_category: Maven Packages
   image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Clivern/Flare/blob/main/pom.xml
   detection_source: pom.xml
   last_updated_by: Clivern
   last_updated_on: 2022-06-21 21:27:34.000000000 Z
@@ -398,6 +412,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19516/default_07037590725b871de29c1d2ebb4610950e953355.png
+  detection_source_url: https://github.com/Clivern/Flare/blob/main/docs/Gemfile
   detection_source: docs/Gemfile
   last_updated_by: Clivern
   last_updated_on: 2022-06-20 15:29:10.000000000 Z
