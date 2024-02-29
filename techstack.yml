@@ -1,0 +1,432 @@
+repo_name: Clivern/Flare
+report_id: befe291c892bedc3c2ba00eb07e153fb
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:08:19+00:00'
+requested_by: Clivern
+provider: github
+branch: main
+detected_tools_count: 31
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/Clivern/Flare
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  version: '1.8'
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/Clivern/Flare/blob/main/pom.xml
+  detection_source: Repo Metadata
+  last_updated_by: Clivern
+  last_updated_on: 2022-06-20 15:29:10.000000000 Z
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/Clivern/Flare
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/Clivern/Flare/blob/main/docs/Gemfile
+  detection_source: docs/Gemfile
+  last_updated_by: Clivern
+  last_updated_on: 2022-06-20 15:29:10.000000000 Z
+- name: Apache FreeMarker
+  description: A free Java-based template engine
+  website_url: http://freemarker.incubator.apache.org/index.html
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/4456/ymCgaIO0_400x400.jpg
+  detection_source_url: https://github.com/Clivern/Flare
+  detection_source: Repo Metadata
+- name: Eclipse
+  description: IDE for Java EE Developers
+  website_url: https://www.eclipse.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Integrated Development Environment
+  image_url: https://img.stackshare.io/service/1446/8cyY6D_m.png
+  detection_source_url: https://github.com/Clivern/Flare/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Ignasi Barrera
+  last_updated_on: 2015-07-17 13:54:58.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Clivern/Flare
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/Clivern/Flare/blob/main/.github/workflows/lgtm.yml
+  detection_source: ".github/workflows/lgtm.yml"
+  last_updated_by: Clivern
+  last_updated_on: 2022-06-20 10:25:01.000000000 Z
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  version: '4.12'
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/Clivern/Flare/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Per Wendel
+  last_updated_on: 2011-05-05 11:59:08.000000000 Z
+- name: Mockito
+  description: Tasty mocking framework for unit tests in Java
+  website_url: https://site.mockito.org/
+  version: 3.12.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2021/4y634TJm_400x400.jpg
+  detection_source_url: https://github.com/Clivern/Flare/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Clivern
+  last_updated_on: 2022-06-20 15:29:10.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/Clivern/Flare/blob/main/docs/Gemfile
+  detection_source: docs/Gemfile
+  last_updated_by: Clivern
+  last_updated_on: 2022-06-20 15:29:10.000000000 Z
+- name: SLF4J
+  description: Simple logging facade for Java
+  website_url: http://slf4j.org/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/Clivern/Flare/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Per Wendel
+  last_updated_on: 2011-05-05 11:59:08.000000000 Z
+- name: Jekyll
+  description: Blog-aware, static site generator in Ruby
+  website_url: http://jekyllrb.com/
+  version: 4.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Static Site Generators
+  image_url: https://img.stackshare.io/service/1114/ad968c1615d956e800fa36494314f48c.jpeg
+  detection_source_url: https://github.com/Clivern/Flare/blob/main/docs/Gemfile.lock
+  detection_source: docs/Gemfile
+  last_updated_by: Clivern
+  last_updated_on: 2022-06-20 15:29:10.000000000 Z
+- name: com.google.code.gson:gson
+  description: Gson JSON library
+  version: 2.8.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Clivern/Flare/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Clivern
+  last_updated_on: 2022-06-20 15:29:10.000000000 Z
+  vulnerabilities:
+  - name: Deserialization of Untrusted Data in Gson
+    cve_id: CVE-2022-25647
+    cve_url: https://github.com/advisories/GHSA-4jrv-ppp4-jm57
+    detected_date: May 21
+    severity: high
+    first_patched: 2.8.9
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  version: '4.12'
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Clivern/Flare/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Jett Gamboa
+  last_updated_on: 2016-01-02 14:56:23.000000000 Z
+  vulnerabilities:
+  - name: TemporaryFolder on unix-like systems does not limit access to created files
+    cve_id: CVE-2020-15250
+    cve_url: https://github.com/advisories/GHSA-269g-pwp5-87pp
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 4.13.1
+- name: org.apache.httpcomponents:httpclient
+  description: Apache HttpComponents Client
+  version: 4.5.6
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Clivern/Flare/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Clivern
+  last_updated_on: 2022-06-20 15:29:10.000000000 Z
+  vulnerabilities:
+  - name: Cross-site scripting in Apache HttpClient
+    cve_id: CVE-2020-13956
+    cve_url: https://github.com/advisories/GHSA-7r82-7xv7-xcpj
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 4.5.13
+- name: org.eclipse.jetty.websocket:websocket-client
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Clivern/Flare/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Clivern
+  last_updated_on: 2022-06-21 21:27:34.000000000 Z
+- name: org.eclipse.jetty.websocket:websocket-server
+  description: The Eclipse Jetty Project
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Clivern/Flare/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Clivern
+  last_updated_on: 2022-06-21 21:27:34.000000000 Z
+- name: org.eclipse.jetty.websocket:websocket-servlet
+  description: The Eclipse Jetty Project
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Clivern/Flare/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Clivern
+  last_updated_on: 2022-06-21 21:27:34.000000000 Z
+- name: org.eclipse.jetty:jetty-server
+  description: The core jetty server artifact
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Clivern/Flare/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Clivern
+  last_updated_on: 2022-06-21 21:27:34.000000000 Z
+- name: org.eclipse.jetty:jetty-webapp
+  description: Jetty web application support
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Clivern/Flare/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Clivern
+  last_updated_on: 2022-06-21 21:27:34.000000000 Z
+- name: org.freemarker:freemarker
+  description: FreeMarker is a "template engine"; a generic tool to generate text
+    output based on templates
+  version: 2.3.28
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Clivern/Flare/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Jett Gamboa
+  last_updated_on: 2016-01-02 14:56:23.000000000 Z
+- name: org.mockito:mockito-core
+  description: Mockito mock objects library core API and implementation
+  version: 3.12.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Clivern/Flare/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Clivern
+  last_updated_on: 2022-06-20 15:29:10.000000000 Z
+- name: org.powermock:powermock-api-mockito2
+  description: PowerMock API for Mockito 2.+.
+  version: 2.0.9
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Clivern/Flare/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Clivern
+  last_updated_on: 2022-06-20 15:29:10.000000000 Z
+- name: org.powermock:powermock-module-junit4
+  description: PowerMock support module for JUnit 4.x
+  version: 2.0.9
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Clivern/Flare/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Clivern
+  last_updated_on: 2022-06-20 15:29:10.000000000 Z
+- name: org.slf4j:slf4j-api
+  description: The slf4j API
+  version: 1.7.36
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Clivern/Flare/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Clivern
+  last_updated_on: 2022-06-20 15:29:10.000000000 Z
+- name: org.slf4j:slf4j-simple
+  description: SLF4J Simple binding
+  version: 1.7.36
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Clivern/Flare/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Clivern
+  last_updated_on: 2022-06-20 15:29:10.000000000 Z
+- name: http_parser.rb
+  description: Ruby bindings to http://github.com/ry/http-parser and http://github.com/a2800276/http-parser.java
+  package_url: https://rubygems.org/http_parser.rb
+  version: 0.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19361/default_586c7ce6af1eca79bd84e28b9ad0423907b71664.png
+  detection_source_url: https://github.com/Clivern/Flare/blob/main/docs/Gemfile.lock
+  detection_source: docs/Gemfile
+  last_updated_by: Clivern
+  last_updated_on: 2022-06-20 15:29:10.000000000 Z
+- name: tzinfo
+  description: TZInfo provides access to time zone data and allows times to be converted
+    using time zone rules
+  package_url: https://rubygems.org/tzinfo
+  version: '1.2'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18981/default_eb163f66039a75cd168fad8a88ccdb68b82bccff.png
+  detection_source_url: https://github.com/Clivern/Flare/blob/main/docs/Gemfile
+  detection_source: docs/Gemfile
+  last_updated_by: Clivern
+  last_updated_on: 2022-06-20 15:29:10.000000000 Z
+  vulnerabilities:
+  - name: TZInfo relative path traversal vulnerability allows loading of arbitrary
+      files
+    cve_id: CVE-2022-31163
+    cve_url: https://github.com/advisories/GHSA-5cm2-9h8c-rvfx
+    detected_date: Jul 22
+    severity: high
+    first_patched: 1.2.10
+- name: tzinfo-data
+  description: TZInfo::Data contains data from the IANA Time Zone database packaged
+    as Ruby modules for use with TZInfo
+  package_url: https://rubygems.org/tzinfo-data
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19516/default_07037590725b871de29c1d2ebb4610950e953355.png
+  detection_source_url: https://github.com/Clivern/Flare/blob/main/docs/Gemfile
+  detection_source: docs/Gemfile
+  last_updated_by: Clivern
+  last_updated_on: 2022-06-20 15:29:10.000000000 Z
+- name: wdm
+  description: Windows Directory Monitor
+  package_url: https://rubygems.org/wdm
+  version: 0.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/Clivern/Flare/blob/main/docs/Gemfile
+  detection_source: docs/Gemfile
+  last_updated_by: Clivern
+  last_updated_on: 2022-06-20 15:29:10.000000000 Z
